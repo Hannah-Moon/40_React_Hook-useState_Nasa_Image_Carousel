@@ -2,7 +2,7 @@
 
 <img alt='screen capture' src="./assets/JamesWebb.gif"></div>
 
-## Problem and Objective
+## 📌 Problem and Objective
 Since its successful launch on December 25, 2021, attention towards the James Webb Telescope seems to be fading. Despite the efforts of Saffs and NASA to upload pictures and captivating content, valuable information about this hidden gem remains undiscovered by the public. Several issues have been identified:
 
 - Lack of Centralized Control: Information and content about the telescope lack centralized management, leading to inefficiencies in dissemination.
@@ -13,7 +13,7 @@ Since its successful launch on December 25, 2021, attention towards the James We
 Addressing these issues would enhance the visibility, accessibility, and impact of the James Webb Telescope, allowing more people to appreciate its scientific achievements and inspiring wonder about the universe.
 
 
-## Environment Set up `Step by Step Guide `
+## 👣 Environment Set up 'Step by Step Guide'
 
 1. Create a new folder and install react-icons
 
@@ -60,15 +60,15 @@ project-root
 
 ```
 
-3. Inside the data.js file, simply create the James Webb' Space Telescope Image array:
+4. Inside the data.js file, simply create the James Webb' Space Telescope Image array:
 
 ```
-const james = [
+const asaImage = [
   {
     id: 1,
     image:'http://'
-    name: '...',
     title: '...',
+    subtitle: '...',
     description:
       '...',
   },
@@ -76,7 +76,7 @@ const james = [
   },
 ];
 
-export default james;
+export default asaImage;
 ```
 
 ## New Approach 
@@ -91,11 +91,14 @@ npm install react-icons
 ```
 
 ## Credit
-## Credit
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 2. Image and content credit: [JAMES WEBB SPACE TELESCOPE GODDARD SPACE FLIGHT CENTER](https://webb.nasa.gov/content/multimedia/images.html)
 
-3. High-definition image credit: [James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
+3. High-definition image credit: [www.flickr.com: James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
 
 4. Contents were rendered using [Grammarly](https://www.grammarly.com/) and [ChatGPT](https://openai.com/chatgpt/).
+
+## 🖨 License 
+Copyright © 2024, [Hannah Moon](https://github.com/Hannah-Moon/).
+Released under the [MIT License](LICENSE).
