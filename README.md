@@ -79,9 +79,9 @@ const asaImage = [
 export default asaImage;
 ```
 
-## New Approach 
+## 💎 New Approach 
 
-1. For CSS control, I utilized [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
+1. For CSS control, I utilized [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).  
 
 2. Each logic was commented to provide clarity on the logical flow. I particularly emphasized the new learning about props and hooks.
 
@@ -90,7 +90,17 @@ export default asaImage;
 npm install react-icons
 ```
 
-## Credit
+4. Specifies the font stack for text rendering. I learned to use apple system fonts like -apple-system and BlinkMacSystemFont for Apple devices and then how falls back to generic font families like sans-serif.
+
+```
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+```
+
+5. Started design by going mobile first as I heard that scaling a design up is easier than scaling a design down
+
+6. For styling a webpage, I used relative units 'em' and 'rem' instead of absolute measurements like 'px(pixels)'. This is because screen sizes come in different sizes and shapes. If I use px, the element's size remains constant regardless of the size of the screen. 
+
+## 📑 Credit
 1. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 2. Image and content credit: [JAMES WEBB SPACE TELESCOPE GODDARD SPACE FLIGHT CENTER](https://webb.nasa.gov/content/multimedia/images.html)

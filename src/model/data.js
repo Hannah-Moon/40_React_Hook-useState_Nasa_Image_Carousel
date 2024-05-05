@@ -22,7 +22,7 @@ const nasaImage = [
       title: 'Cas A',
       subtitle: 'Chandra/Webb/Hubble/Spitzer composite',
       description:
-        'For the first time astronomers have combined data from NASAs Chandra X-ray Observatory and James Webb Space Telescope to study the well-known supernova remnant Cassiopeia A (Cas A). ',
+        'For the first time astronomers have combined data from NASAs Chandra X-ray Observatory and James Webb Space Telescope to study the well-known supernova remnant Cassiopeia A. ',
     },
     {
       id: 4,

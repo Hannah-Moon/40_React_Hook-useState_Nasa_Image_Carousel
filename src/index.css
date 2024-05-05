@@ -1,12 +1,11 @@
 /*
-=============== 
+============================ 
 Define CSS Variables Upfront 
-===============
+============================
 */
 
 /* Color theme was bowrrowed from Coolors */
 :root {
-
   /* Yellow tone primary color*/
   --clr-primary-1: #FF7B00;
   --clr-primary-2: #FF8800;
@@ -20,6 +19,7 @@ Define CSS Variables Upfront
   --clr-primary-10: #fff;
 
   /* Dark grey combo */
+  --clr-black: #222;
   --clr-grey-1: #212529;
   --clr-grey-2: #343a40;
   --clr-grey-3: #495057;
@@ -34,15 +34,6 @@ Define CSS Variables Upfront
   --clr-grey-10: #f8f9fa;
   --clr-white: #fff;
 
-/* Point colors */
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
-  --clr-black: #222;
-
-  --transition: all 0.3s linear;
-
 /* Formation */
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -52,12 +43,14 @@ Define CSS Variables Upfront
   --fixed-width: 620px;
 
 }
+
 /*
-=============== 
-Global Styles
-===============
+============================== 
+Global Styles: Pseudo-elements
+==============================
 */
 
+/* This ensures that the size of an element remains consistent regardless of padding or border changes. */
 *,
 ::after,
 ::before {
@@ -66,20 +59,15 @@ Global Styles
   box-sizing: border-box;
 }
 
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background: var(--clr-grey-1);
   color: var(--clr-grey-9);
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 0.875rem
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
+
 h1,
 h2,
 h3,
@@ -87,22 +75,27 @@ h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
+
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
+
 h4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
+
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   color: var(--clr-grey-5);
 }
 
@@ -114,13 +107,13 @@ p {
     font-size: 2.5rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   h4 {
     font-size: 1rem;
   }
   body {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   h1,
   h2,
@@ -129,8 +122,8 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
+/*  global classes */
 /* container */
 .container {
   width: 90vw;
@@ -138,15 +131,17 @@ p {
   max-width: var(--max-width);
 }
 
+/* Desktop view */
 @media screen and (min-width: 992px) {
   .container {
     width: 95vw;
   }
 }
+
 /*
-=============== 
+======
 Slider
-===============
+======
 */
 .title {
   text-align: center;
@@ -178,7 +173,6 @@ Slider
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
-  /* have to have a height */
   height: 600px;
   max-width: 800px;
   text-align: center;
@@ -223,11 +217,17 @@ article h4 {
   color: var(--clr-primary-4);
 }
 
+/*
+===========================
+Prev and next button set up
+===========================
+*/
+
 .prev,
 .next {
   position: absolute;
   top: 200px;
-  transform: translateY(-50%);
+  transform: translateY(-30%);
   background: var(--clr-grey-4);
   color: var(--clr-white);
   width: 1.25rem;
@@ -254,17 +254,20 @@ article h4 {
   right: 0;
 }
 
+/* Tablet view */
 @media (min-width: 800px) {
   .text {
     max-width: 45em;
   }
+
   .prev,
   .next {
     width: 2rem;
     height: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
+
 article {
   position: absolute;
   top: 0;
@@ -274,13 +277,16 @@ article {
   opacity: 0;
   transition: var(--transition);
 }
+
 article.activeSlide {
   opacity: 1;
   transform: translateX(0);
 }
+
 article.lastSlide {
   transform: translateX(-100%);
 }
+
 article.nextSlide {
   transform: translateX(100%);
 }
