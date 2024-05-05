@@ -63,7 +63,7 @@ project-root
 4. Inside the data.js file, simply create the James Webb' Space Telescope Image array:
 
 ```
-const asaImage = [
+const nasaImage = [
   {
     id: 1,
     image:'http://'
@@ -76,7 +76,7 @@ const asaImage = [
   },
 ];
 
-export default asaImage;
+export default nasaImage;
 ```
 
 ## 💎 New Approach 
@@ -96,7 +96,7 @@ npm install react-icons
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 ```
 
-5. Started design by going mobile first as I heard that scaling a design up is easier than scaling a design down
+5. Started design by going mobile first as I heard that scaling a design up is easier than scaling a design down.
 
 6. For styling a webpage, I used relative units 'em' and 'rem' instead of absolute measurements like 'px(pixels)'. This is because screen sizes come in different sizes and shapes. If I use px, the element's size remains constant regardless of the size of the screen. 
 
@@ -105,7 +105,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, A
 
 2. Image and content credit: [JAMES WEBB SPACE TELESCOPE GODDARD SPACE FLIGHT CENTER](https://webb.nasa.gov/content/multimedia/images.html)
 
-3. High-definition image credit: [www.flickr.com: James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
+3. High-resultion image credit: [www.flickr.com: James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
 
 4. Contents were rendered using [Grammarly](https://www.grammarly.com/) and [ChatGPT](https://openai.com/chatgpt/).
 
