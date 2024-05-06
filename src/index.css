@@ -7,15 +7,15 @@ Define CSS Variables Upfront
 /* Color theme was bowrrowed from Coolors */
 :root {
   /* Yellow tone primary color*/
-  --clr-primary-1: #FF7B00;
-  --clr-primary-2: #FF8800;
-  --clr-primary-3: #FF9500;
-  --clr-primary-4: #FFA200;
-  --clr-primary-5: #FFAA00;
-  --clr-primary-6: #FFB700;
-  --clr-primary-7: #FFC300;
-  --clr-primary-8: #FFD000;
-  --clr-primary-9: #FFEA00;
+  --clr-primary-1: #ff7b00;
+  --clr-primary-2: #ff8800;
+  --clr-primary-3: #ff9500;
+  --clr-primary-4: #ffa200;
+  --clr-primary-5: #ffaa00;
+  --clr-primary-6: #ffb700;
+  --clr-primary-7: #ffc300;
+  --clr-primary-8: #ffd000;
+  --clr-primary-9: #ffea00;
   --clr-primary-10: #fff;
 
   /* Dark grey combo */
@@ -34,14 +34,13 @@ Define CSS Variables Upfront
   --clr-grey-10: #f8f9fa;
   --clr-white: #fff;
 
-/* Formation */
+  /* Formation */
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
-
 }
 
 /*
@@ -59,13 +58,13 @@ Global Styles: Pseudo-elements
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background: var(--clr-grey-1);
   color: var(--clr-grey-9);
   line-height: 1.5;
-  font-size: 0.875rem
+  font-size: 0.875rem;
 }
 
 h1,
