@@ -105,7 +105,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, A
 
 2. Image and content credit: [JAMES WEBB SPACE TELESCOPE GODDARD SPACE FLIGHT CENTER](https://webb.nasa.gov/content/multimedia/images.html)
 
-3. High-resultion image credit: [www.flickr.com: James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
+3. High-resolution image credit: [www.flickr.com: James Webb Space Telescope](https://www.flickr.com/photos/nasawebbtelescope/)
 
 4. Contents were rendered using [Grammarly](https://www.grammarly.com/) and [ChatGPT](https://openai.com/chatgpt/).
 
