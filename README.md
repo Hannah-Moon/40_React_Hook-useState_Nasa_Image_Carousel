@@ -2,6 +2,10 @@
 
 <img alt='screen capture' src="./assets/JamesWebb.gif"></div>
 
+## Live Demo
+
+- The app is deployed. Please visit [https://jameswebbtelescope.netlify.app/](https://jameswebbtelescope.netlify.app/) to explore James Webb Space Telescope Images.
+
 ## 📌 Problem and Objective
 
 Since its successful launch on December 25, 2021, attention towards the James Webb Telescope seems to be fading. Despite the efforts of Saffs and NASA to upload pictures and captivating content, valuable information about this hidden gem remains undiscovered by the public. Several issues have been identified:
