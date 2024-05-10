@@ -22,11 +22,10 @@ function App() {
 
   useEffect(() => {
     let slider = setInterval(() => {
-      console.log(nasa);
       setIndex(index + 1);
     }, 7000);
     return () => clearInterval(slider);
-  }, [index]);
+  }, [index, nasa]);
 
   // Returning the JSX code for the App component
   return (
