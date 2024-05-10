@@ -2,7 +2,7 @@
 
 <img alt='screen capture' src="./assets/JamesWebb.gif"></div>
 
-## Live Demo
+## 🎬 Live Demo
 
 - The app is deployed. Please visit [https://jameswebbtelescope.netlify.app/](https://jameswebbtelescope.netlify.app/) to explore James Webb Space Telescope Images.
 
