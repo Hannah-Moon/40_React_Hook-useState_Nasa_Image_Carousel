@@ -23,6 +23,8 @@ function App() {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
+      console.log(nasa);
+      setIndex(index + 1);
     }, 7000);
     return () => clearInterval(slider);
   }, [index, nasa]);
